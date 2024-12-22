@@ -18,7 +18,7 @@
     box-shadow: 2px 5px #000;
 }
 
-h2{
+.login h2{
     color:#364958;
     font-size: 55px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,6 +56,70 @@ h2{
 }
 
 .form1 p{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap:6px;
+    font-size: 15px;
+}
+/*Sign Up Style */
+.SignUp{
+    background-color: #c9e4ca;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    background-color:#87BBA2;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 25px;
+    box-shadow: 2px 5px #000;
+}
+
+.SignUp h2{
+    color:#364958;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:0;
+    text-shadow: 2px 2px #000;
+}
+.form2 h1{
+    color:#364958;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:0;
+    text-shadow: 2px 2px #000;
+}
+.form2 label{
+    color:#364958;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:5px;
+}
+.form2 input{
+    border-radius: 15px;
+    height: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 350px;
+}
+.form2 button{
+    width:360px;
+    height:40px;
+    border-radius: 15px;
+    margin-top:15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#c9e4ca;
+}
+
+.form2 p{
     display: flex;
     flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
